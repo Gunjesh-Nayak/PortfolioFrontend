@@ -42,13 +42,14 @@ const Contact = () => {
     try {
       setLoading(true);
 
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`,
+        console.log("REQ BODY:", req.body), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
         
       });
-      console.log("REQ BODY:", req.body);
+      
 
       const data = await res.json();
 
