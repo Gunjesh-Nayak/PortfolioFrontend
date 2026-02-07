@@ -15,7 +15,7 @@ const projects = [
     desc: "A modern animated portfolio built with React, GSAP, Tailwind and Framer Motion with smooth animations and transitions.This is fully responsive and optimized for performance. It features a clean and intuitive design, showcasing my skills, projects, and experience in a visually appealing way. The website is built with a focus on user experience, ensuring that visitors can easily navigate through the content and learn more about my work.This is fully made by Ai(ChatGPT-4) and I have added some custom animations and design ideas with lovable Ai to make it unique and personalized.",
     tech: ["React", "GSAP", "TailwindCSS", "Framer Motion", "ChatGPT-4", "Lovable AI"],
     image: img1,
-    live: "https://your-live-site.com",
+    live: "https://gunjesh-nayak.netlify.app",
     github: "https://github.com/yourusername",
   },
   {
