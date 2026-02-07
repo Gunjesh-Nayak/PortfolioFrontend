@@ -16,7 +16,7 @@ const projects = [
     tech: ["React", "GSAP", "TailwindCSS", "Framer Motion", "ChatGPT-4", "Lovable AI"],
     image: img1,
     live: "https://gunjesh-nayak.netlify.app",
-    github: "https://github.com/yourusername",
+    github: "https://github.com/Gunjesh-Nayak",
   },
   {
     title: "SwasthyaSetu AI Medibot",
