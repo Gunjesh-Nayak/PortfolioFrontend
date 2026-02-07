@@ -46,8 +46,10 @@ const Contact = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
+        
       });
-        console.log("REQ BODY:", req.body);
+      console.log("REQ BODY:", req.body);
+
       const data = await res.json();
 
       if (data.success) {
@@ -58,6 +60,7 @@ const Contact = () => {
       }
     } catch (err) {
       alert("Server error");
+      console.log("Error sending message:", err);
     } finally {
       setLoading(false);
     }
