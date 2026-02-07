@@ -47,7 +47,7 @@ const Contact = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-
+        console.log("REQ BODY:", req.body);
       const data = await res.json();
 
       if (data.success) {
